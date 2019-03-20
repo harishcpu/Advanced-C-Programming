@@ -1,7 +1,7 @@
 /* Title : MEMORY MANAGER
  * Author : Harish
  * Date : 21 Dec
- * Description : IDK what to write as the description.
+ * Description : IDK what to write as the description, it's awesome.
 */
 
 #include <stdio.h>

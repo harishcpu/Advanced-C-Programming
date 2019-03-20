@@ -66,34 +66,3 @@ int RemElement(void* Mem)
 	printf("full : %d\n", *(*(N + choice) + 1));
 	count -= 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*    *(long *)Mem = (mask1 | mask2 >> nb) & *(long *)Mem;
-	print_bits(&Mem);
-    
-    *(long *)Mem = ((mask2 >> nb) & *(long *)Mem);
-	print_bits(Mem);
-*/	
-
-
-//  print_bits(&mask2);
-

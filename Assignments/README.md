@@ -1,1 +1,1 @@
-This folder contains some beginner C programs.
+This directory contains beginner level C programs, will be very useful for Beginners.

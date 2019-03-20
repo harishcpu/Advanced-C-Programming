@@ -35,30 +35,6 @@ int DispElement(void *Mem, int n)
 			read += 32;
             ++printed;
 			}
-
-
-
-/*		//	WE CAN'T PERFORM BITWISE OPERATIONS ON FLOATING POINT NUMBERS  //
- *
- *			dummy = *(long *)Mem;
-			print_bits(Mem);
-			print_bits(&dummy);
-			printf("mask : ");
-			print_bits(&mask1);
-			mask1 = ((-1 & *(long *)Mem) | *(int *)&mask1);
-			printf("mask float : %f\n", mask1);
-			printf("mask float : %f\n", (float)((-1 & *(long *)Mem) >> read));
-
-			dummy = (double)(((unsigned)(*(long *)Mem)) >> read);
-			printf("read : %d \n", read);
-			print_bits(&dummy);
-			
-			
-			printf("%d. (float) : " BOLDRED "%f\n" RESET, i+1, (float)(((unsigned)*(long *)Mem) >> read));
-			read += 32;
-*/		
-        
-        
         
         } else if (4 == *(ary + i)) {
 			printf("%d. (double) : " BOLDRED "%lf\n" RESET, i+1, (*(double *)Mem)); 

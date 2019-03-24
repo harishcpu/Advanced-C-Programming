@@ -18,7 +18,7 @@ char *StrStr(const char *haystack, const char *needle)
         return NULL;
 }
 
-int main()
+int main(void)
 {
         char *haystack, *needle;
 
@@ -33,4 +33,5 @@ int main()
                 printf("%s\n", str);
         else
                 printf("Needle is not found\n");
+        return 0;
 }
